@@ -2,9 +2,6 @@
   "name": "tinyhouse-deploy",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "start": "node src/index.js"
-  },
   "engines": {
     "node": "10.13.0"
   },
@@ -22,5 +19,8 @@
     "mongodb": "^3.3.4",
     "npm": "^6.13.7",
     "stripe": "^8.19.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
   }
 }
